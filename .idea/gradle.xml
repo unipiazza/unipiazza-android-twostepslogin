@@ -9,12 +9,8 @@
         <option name="gradleJvm" value="1.7" />
         <option name="modules">
           <set>
-            <option value="/opt/monossido/AndroidstudioProjects" />
             <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
             <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2" />
-            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest" />
-            <option value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary" />
-            <option value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/RestLibrary" />
           </set>
         </option>
       </GradleProjectSettings>

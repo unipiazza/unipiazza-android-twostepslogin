@@ -63,17 +63,81 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="135" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#4963#4964#0" expanded="false" />
+                <element signature="e#5018#5019#0" expanded="false" />
+                <element signature="e#5598#5599#0" expanded="false" />
+                <element signature="e#5653#5654#0" expanded="false" />
+                <element signature="e#6241#6242#0" expanded="false" />
+                <element signature="e#6296#6297#0" expanded="false" />
+                <element signature="e#8518#8519#0" expanded="false" />
+                <element signature="e#8573#8574#0" expanded="false" />
+                <element signature="e#9172#9173#0" expanded="false" />
+                <element signature="e#9227#9228#0" expanded="false" />
+                <element signature="e#9802#9803#0" expanded="false" />
+                <element signature="e#9857#9858#0" expanded="false" />
+                <element signature="e#11335#11336#0" expanded="false" />
+                <element signature="e#11395#11396#0" expanded="false" />
+                <element signature="e#12102#12103#0" expanded="false" />
+                <element signature="e#12187#12188#0" expanded="false" />
+                <element signature="e#14223#14224#0" expanded="false" />
+                <element signature="e#14278#14279#0" expanded="false" />
+                <element signature="e#14728#14729#0" expanded="false" />
+                <element signature="e#14783#14784#0" expanded="false" />
+                <element signature="e#16274#16275#0" expanded="false" />
+                <element signature="e#16329#16330#0" expanded="false" />
+                <element signature="e#17089#17090#0" expanded="false" />
+                <element signature="e#17144#17145#0" expanded="false" />
+                <element signature="e#17580#17581#0" expanded="false" />
+                <element signature="e#17635#17636#0" expanded="false" />
+                <element signature="e#18448#18449#0" expanded="false" />
+                <element signature="e#18503#18504#0" expanded="false" />
+                <element signature="e#19445#19446#0" expanded="false" />
+                <element signature="e#19500#19501#0" expanded="false" />
+                <element signature="e#20430#20431#0" expanded="false" />
+                <element signature="e#20485#20486#0" expanded="false" />
+                <element signature="e#21681#21682#0" expanded="false" />
+                <element signature="e#21736#21737#0" expanded="false" />
+                <element signature="e#22931#22932#0" expanded="false" />
+                <element signature="e#22986#22987#0" expanded="false" />
+                <element signature="e#24096#24097#0" expanded="false" />
+                <element signature="e#24151#24152#0" expanded="false" />
+                <element signature="e#25362#25363#0" expanded="false" />
+                <element signature="e#25417#25418#0" expanded="false" />
+                <element signature="e#26184#26185#0" expanded="false" />
+                <element signature="e#26239#26240#0" expanded="false" />
+                <element signature="e#27017#27018#0" expanded="false" />
+                <element signature="e#27072#27073#0" expanded="false" />
+                <element signature="e#28345#28346#0" expanded="false" />
+                <element signature="e#28400#28401#0" expanded="false" />
+                <element signature="e#30228#30229#0" expanded="false" />
+                <element signature="e#30283#30284#0" expanded="false" />
+                <element signature="e#30774#30775#0" expanded="false" />
+                <element signature="e#30829#30830#0" expanded="false" />
+                <element signature="e#31654#31655#0" expanded="false" />
+                <element signature="e#31709#31710#0" expanded="false" />
+                <element signature="e#32682#32683#0" expanded="false" />
+                <element signature="e#32753#32754#0" expanded="false" />
+                <element signature="e#33323#33324#0" expanded="false" />
+                <element signature="e#33378#33379#0" expanded="false" />
+                <element signature="e#34245#34246#0" expanded="false" />
+                <element signature="e#34300#34301#0" expanded="false" />
+                <element signature="e#35241#35242#0" expanded="false" />
+                <element signature="e#35296#35297#0" expanded="false" />
+                <element signature="e#36065#36066#0" expanded="false" />
+                <element signature="e#36120#36121#0" expanded="false" />
+                <element signature="e#36878#36879#0" expanded="false" />
+                <element signature="e#36933#36934#0" expanded="false" />
+                <element signature="e#37695#37696#0" expanded="false" />
+                <element signature="e#37750#37751#0" expanded="false" />
+                <element signature="e#38591#38592#0" expanded="false" />
+                <element signature="e#38646#38647#0" expanded="false" />
+                <element signature="e#42867#42868#0" expanded="false" />
+                <element signature="e#42922#42923#0" expanded="false" />
+                <element signature="e#43684#43685#0" expanded="false" />
+                <element signature="e#43739#43740#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,11 +162,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
         <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/settings.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="30" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.03327172">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,29 +179,6 @@
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/java/com/lorenzobraghetto/myapplicationtest/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
-        <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5343228">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -176,22 +217,6 @@
               <ExternalProjectPojo>
                 <option name="name" value=":material2stepslogin2" />
                 <option name="path" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":..:unipiazza-android-restlibrary:RestLibrary" />
-                <option name="path" value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/RestLibrary" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":..:unipiazza-android-restlibrary" />
-                <option name="path" value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":.." />
-                <option name="path" value="/opt/monossido/AndroidstudioProjects" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":myapplicationtest" />
-                <option name="path" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="Material2StepsLogin" />
@@ -1378,105 +1403,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
                 <option name="name" value="validateDebugSigning" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="dexDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="dexRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Installs the Debug build." />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="installDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="jarDebugClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="jarReleaseClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs lint on just the fatal issues in the Release build." />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="lintVitalRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="packageDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="packageRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="preDexDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="preDexRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:3.20.0" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk3200Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-base:7.3.0" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesBase730Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-gcm:7.3.0" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesGcm730Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.google.android.gms:play-services-maps:7.3.0" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareComGoogleAndroidGmsPlayServicesMaps730Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare Material2StepsLogin:material2stepslogin2:unspecified" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareMaterial2StepsLoginMaterial2stepslogin2UnspecifiedLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare Material2StepsLogin....unipiazza-android-restlibrary:RestLibrary:unspecified:release" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareMaterial2StepsLoginUnipiazzaAndroidRestlibraryRestLibraryUnspecifiedReleaseLibrary" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Debug build." />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="uninstallDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Uninstalls the Release build." />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="uninstallRelease" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="zipalignDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="packageDebugJarArtifact" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="packageReleaseJarArtifact" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:22.0.0" />
-                <option name="linkedExternalProjectPath" value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-                <option name="name" value="prepareComAndroidSupportSupportV42200Library" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -3828,7 +3754,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/ATOOMA/AppGithub/atooma-sdk-samples" value="11365903774596" />
-        <entry key="$PROJECT_DIR$" value="10040573052626" />
+        <entry key="$PROJECT_DIR$" value="4307976808343" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -4677,6 +4603,7 @@
         <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/res/layout/second_login_view.xml" />
         <option value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/RestLibrary/src/main/java/com/unipiazza/restlibrary/utentiapp/RestClient.java" />
         <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/java/com/lorenzobraghetto/material2stepslogin/SecondStepFragment.java" />
+        <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/settings.gradle" />
       </list>
     </option>
   </component>
@@ -5187,8 +5114,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1922" height="1054" extended-state="7" />
-    <editor active="false" />
+    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -5200,7 +5127,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31731844" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -5235,25 +5162,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/java/com/lorenzobraghetto/myapplicationtest/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/res/layout/second_login_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -5269,15 +5177,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="46" selection-start-line="135" selection-start-column="46" selection-end-line="135" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4963#4964#0" expanded="false" />
+            <element signature="e#5018#5019#0" expanded="false" />
+            <element signature="e#5598#5599#0" expanded="false" />
+            <element signature="e#5653#5654#0" expanded="false" />
+            <element signature="e#6241#6242#0" expanded="false" />
+            <element signature="e#6296#6297#0" expanded="false" />
+            <element signature="e#8518#8519#0" expanded="false" />
+            <element signature="e#8573#8574#0" expanded="false" />
+            <element signature="e#9172#9173#0" expanded="false" />
+            <element signature="e#9227#9228#0" expanded="false" />
+            <element signature="e#9802#9803#0" expanded="false" />
+            <element signature="e#9857#9858#0" expanded="false" />
+            <element signature="e#11335#11336#0" expanded="false" />
+            <element signature="e#11395#11396#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12187#12188#0" expanded="false" />
+            <element signature="e#14223#14224#0" expanded="false" />
+            <element signature="e#14278#14279#0" expanded="false" />
+            <element signature="e#14728#14729#0" expanded="false" />
+            <element signature="e#14783#14784#0" expanded="false" />
+            <element signature="e#16274#16275#0" expanded="false" />
+            <element signature="e#16329#16330#0" expanded="false" />
+            <element signature="e#17089#17090#0" expanded="false" />
+            <element signature="e#17144#17145#0" expanded="false" />
+            <element signature="e#17580#17581#0" expanded="false" />
+            <element signature="e#17635#17636#0" expanded="false" />
+            <element signature="e#18448#18449#0" expanded="false" />
+            <element signature="e#18503#18504#0" expanded="false" />
+            <element signature="e#19445#19446#0" expanded="false" />
+            <element signature="e#19500#19501#0" expanded="false" />
+            <element signature="e#20430#20431#0" expanded="false" />
+            <element signature="e#20485#20486#0" expanded="false" />
+            <element signature="e#21681#21682#0" expanded="false" />
+            <element signature="e#21736#21737#0" expanded="false" />
+            <element signature="e#22931#22932#0" expanded="false" />
+            <element signature="e#22986#22987#0" expanded="false" />
+            <element signature="e#24096#24097#0" expanded="false" />
+            <element signature="e#24151#24152#0" expanded="false" />
+            <element signature="e#25362#25363#0" expanded="false" />
+            <element signature="e#25417#25418#0" expanded="false" />
+            <element signature="e#26184#26185#0" expanded="false" />
+            <element signature="e#26239#26240#0" expanded="false" />
+            <element signature="e#27017#27018#0" expanded="false" />
+            <element signature="e#27072#27073#0" expanded="false" />
+            <element signature="e#28345#28346#0" expanded="false" />
+            <element signature="e#28400#28401#0" expanded="false" />
+            <element signature="e#30228#30229#0" expanded="false" />
+            <element signature="e#30283#30284#0" expanded="false" />
+            <element signature="e#30774#30775#0" expanded="false" />
+            <element signature="e#30829#30830#0" expanded="false" />
+            <element signature="e#31654#31655#0" expanded="false" />
+            <element signature="e#31709#31710#0" expanded="false" />
+            <element signature="e#32682#32683#0" expanded="false" />
+            <element signature="e#32753#32754#0" expanded="false" />
+            <element signature="e#33323#33324#0" expanded="false" />
+            <element signature="e#33378#33379#0" expanded="false" />
+            <element signature="e#34245#34246#0" expanded="false" />
+            <element signature="e#34300#34301#0" expanded="false" />
+            <element signature="e#35241#35242#0" expanded="false" />
+            <element signature="e#35296#35297#0" expanded="false" />
+            <element signature="e#36065#36066#0" expanded="false" />
+            <element signature="e#36120#36121#0" expanded="false" />
+            <element signature="e#36878#36879#0" expanded="false" />
+            <element signature="e#36933#36934#0" expanded="false" />
+            <element signature="e#37695#37696#0" expanded="false" />
+            <element signature="e#37750#37751#0" expanded="false" />
+            <element signature="e#38591#38592#0" expanded="false" />
+            <element signature="e#38646#38647#0" expanded="false" />
+            <element signature="e#42867#42868#0" expanded="false" />
+            <element signature="e#42922#42923#0" expanded="false" />
+            <element signature="e#43684#43685#0" expanded="false" />
+            <element signature="e#43739#43740#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5285,30 +5259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/java/com/lorenzobraghetto/myapplicationtest/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5327,6 +5277,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -5360,6 +5311,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
@@ -5396,37 +5348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/app/src/main/java/com/lorenzobraghetto/material2stepslogin/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17632653">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lorenzobraghetto/material2stepslogin/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/res/values-w820dp/dimens.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -5441,42 +5362,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapplicationtest/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapplicationtest/src/main/java/com/lorenzobraghetto/myapplicationtest/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/res/layout/login_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.064516">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/22.2.0/support-v4-22.2.0-sources.jar!/android/support/v4/app/FragmentTransaction.java">
@@ -5549,14 +5443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15517241">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/res/layout/second_login_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -5572,7 +5458,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="37" selection-start-line="135" selection-start-column="37" selection-end-line="135" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#4963#4964#0" expanded="false" />
+            <element signature="e#5018#5019#0" expanded="false" />
+            <element signature="e#5598#5599#0" expanded="false" />
+            <element signature="e#5653#5654#0" expanded="false" />
+            <element signature="e#6241#6242#0" expanded="false" />
+            <element signature="e#6296#6297#0" expanded="false" />
+            <element signature="e#8518#8519#0" expanded="false" />
+            <element signature="e#8573#8574#0" expanded="false" />
+            <element signature="e#9172#9173#0" expanded="false" />
+            <element signature="e#9227#9228#0" expanded="false" />
+            <element signature="e#9802#9803#0" expanded="false" />
+            <element signature="e#9857#9858#0" expanded="false" />
+            <element signature="e#11335#11336#0" expanded="false" />
+            <element signature="e#11395#11396#0" expanded="false" />
+            <element signature="e#12102#12103#0" expanded="false" />
+            <element signature="e#12187#12188#0" expanded="false" />
+            <element signature="e#14223#14224#0" expanded="false" />
+            <element signature="e#14278#14279#0" expanded="false" />
+            <element signature="e#14728#14729#0" expanded="false" />
+            <element signature="e#14783#14784#0" expanded="false" />
+            <element signature="e#16274#16275#0" expanded="false" />
+            <element signature="e#16329#16330#0" expanded="false" />
+            <element signature="e#17089#17090#0" expanded="false" />
+            <element signature="e#17144#17145#0" expanded="false" />
+            <element signature="e#17580#17581#0" expanded="false" />
+            <element signature="e#17635#17636#0" expanded="false" />
+            <element signature="e#18448#18449#0" expanded="false" />
+            <element signature="e#18503#18504#0" expanded="false" />
+            <element signature="e#19445#19446#0" expanded="false" />
+            <element signature="e#19500#19501#0" expanded="false" />
+            <element signature="e#20430#20431#0" expanded="false" />
+            <element signature="e#20485#20486#0" expanded="false" />
+            <element signature="e#21681#21682#0" expanded="false" />
+            <element signature="e#21736#21737#0" expanded="false" />
+            <element signature="e#22931#22932#0" expanded="false" />
+            <element signature="e#22986#22987#0" expanded="false" />
+            <element signature="e#24096#24097#0" expanded="false" />
+            <element signature="e#24151#24152#0" expanded="false" />
+            <element signature="e#25362#25363#0" expanded="false" />
+            <element signature="e#25417#25418#0" expanded="false" />
+            <element signature="e#26184#26185#0" expanded="false" />
+            <element signature="e#26239#26240#0" expanded="false" />
+            <element signature="e#27017#27018#0" expanded="false" />
+            <element signature="e#27072#27073#0" expanded="false" />
+            <element signature="e#28345#28346#0" expanded="false" />
+            <element signature="e#28400#28401#0" expanded="false" />
+            <element signature="e#30228#30229#0" expanded="false" />
+            <element signature="e#30283#30284#0" expanded="false" />
+            <element signature="e#30774#30775#0" expanded="false" />
+            <element signature="e#30829#30830#0" expanded="false" />
+            <element signature="e#31654#31655#0" expanded="false" />
+            <element signature="e#31709#31710#0" expanded="false" />
+            <element signature="e#32682#32683#0" expanded="false" />
+            <element signature="e#32753#32754#0" expanded="false" />
+            <element signature="e#33323#33324#0" expanded="false" />
+            <element signature="e#33378#33379#0" expanded="false" />
+            <element signature="e#34245#34246#0" expanded="false" />
+            <element signature="e#34300#34301#0" expanded="false" />
+            <element signature="e#35241#35242#0" expanded="false" />
+            <element signature="e#35296#35297#0" expanded="false" />
+            <element signature="e#36065#36066#0" expanded="false" />
+            <element signature="e#36120#36121#0" expanded="false" />
+            <element signature="e#36878#36879#0" expanded="false" />
+            <element signature="e#36933#36934#0" expanded="false" />
+            <element signature="e#37695#37696#0" expanded="false" />
+            <element signature="e#37750#37751#0" expanded="false" />
+            <element signature="e#38591#38592#0" expanded="false" />
+            <element signature="e#38646#38647#0" expanded="false" />
+            <element signature="e#42867#42868#0" expanded="false" />
+            <element signature="e#42922#42923#0" expanded="false" />
+            <element signature="e#43684#43685#0" expanded="false" />
+            <element signature="e#43739#43740#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5592,26 +5552,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -5624,14 +5568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/java/com/lorenzobraghetto/myapplicationtest/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/src/main/java/com/lorenzobraghetto/material2stepslogin/FirstStepFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -5640,15 +5576,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/src/main/res/layout/activity_main.xml">
+    <entry file="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5343228">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.03327172">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>
