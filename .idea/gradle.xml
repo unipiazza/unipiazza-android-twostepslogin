@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4" />
+        <option name="gradleJvm" value="1.7" />
+        <option name="modules">
+          <set>
+            <option value="/opt/monossido/AndroidstudioProjects" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest" />
+            <option value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary" />
+            <option value="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/RestLibrary" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

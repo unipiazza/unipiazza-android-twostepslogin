@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/...iml" filepath="/opt/monossido/AndroidstudioProjects/...iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/Material2StepsLogin.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/Material2StepsLogin.iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/RestLibrary/RestLibrary.iml" filepath="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/RestLibrary/RestLibrary.iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/material2stepslogin2.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/material2stepslogin2.iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/myapplicationtest.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/myapplicationtest/myapplicationtest.iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/unipiazza-android-restlibrary.iml" filepath="/opt/monossido/AndroidstudioProjects/unipiazza-android-restlibrary/unipiazza-android-restlibrary.iml" />
+    </modules>
+  </component>
+</project>
