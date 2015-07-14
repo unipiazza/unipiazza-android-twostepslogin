@@ -5,7 +5,6 @@ import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,11 +13,13 @@ import android.view.ViewTreeObserver;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import io.codetail.animation.SupportAnimator;
 import io.codetail.animation.ViewAnimationUtils;
+import io.codetail.widget.RevealLinearLayout;
 
 /**
  * Created by monossido on 26/06/15.
@@ -32,6 +33,8 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     private MaterialTwoStepsLogin mtsl;
     private CircleImageView profile_image;
     private Button pass_forget;
+    private ProgressBar progressBarSecond;
+    private RevealLinearLayout layoutSecond;
 
     @Nullable
     @Override
@@ -45,6 +48,9 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         editTextPassword = (EditText) view.findViewById(R.id.editTextPassword);
         profile_image = (CircleImageView) view.findViewById(R.id.profile_image);
         pass_forget = (Button) view.findViewById(R.id.pass_forget);
+        progressBarSecond = (ProgressBar) view.findViewById(R.id.progressBarSecond);
+        layoutSecond = (RevealLinearLayout) view.findViewById(R.id.layoutSecond);
+
 
         if (mtsl != null) {
             email.setText(mtsl.getEmail());
@@ -56,6 +62,8 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                progressBarSecond.setVisibility(View.VISIBLE);
+                layoutSecond.setVisibility(View.GONE);
                 mListener.onLoginClicked(editTextPassword.getText().toString());
             }
         });
@@ -116,14 +124,16 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
 
     @Override
     public boolean onKey(View v, int keyCode, KeyEvent event) {
-        Log.v("UNIPIAZZA", "onKey");
-        Log.v("UNIPIAZZA", "keyCode");
         switch (keyCode) {
             case KeyEvent.KEYCODE_BACK:
-                Log.v("UNIPIAZZA", "KEYCODE_BACK");
                 mListener.onBackToMail();
                 return false;
         }
         return false;
+    }
+
+    public void wrongPassword() {
+        progressBarSecond.setVisibility(View.VISIBLE);
+        layoutSecond.setVisibility(View.GONE);
     }
 }

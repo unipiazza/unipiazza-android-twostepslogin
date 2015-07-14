@@ -25,6 +25,7 @@ public class MaterialTwoStepsLogin extends LinearLayout {
     private String name;
     private Bitmap bitmap;
     private Fragment currentFragment;
+    private SecondStepFragment secondStepFragment;
 
     public MaterialTwoStepsLogin(Context context) {
         super(context);
@@ -47,6 +48,7 @@ public class MaterialTwoStepsLogin extends LinearLayout {
         mView = inflater.inflate(R.layout.login_view, this);
 
         firstStepFragment = new FirstStepFragment();
+        secondStepFragment = new SecondStepFragment();
     }
 
     public void setActivity(AppCompatActivity activity) {
@@ -71,6 +73,10 @@ public class MaterialTwoStepsLogin extends LinearLayout {
         firstStepFragment.notVerified();
     }
 
+    public void setPasswordWrong() {
+        secondStepFragment.wrongPassword();
+    }
+
     public String getEmail() {
         return email;
     }
@@ -83,4 +89,7 @@ public class MaterialTwoStepsLogin extends LinearLayout {
         return bitmap;
     }
 
+    public SecondStepFragment getSecondStepFragment() {
+        return secondStepFragment;
+    }
 }

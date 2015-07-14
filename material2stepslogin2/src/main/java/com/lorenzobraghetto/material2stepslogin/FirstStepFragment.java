@@ -90,10 +90,9 @@ public class FirstStepFragment extends Fragment {
 
     protected void emailVerified() {
         FragmentManager fm = getActivity().getSupportFragmentManager();
-        SecondStepFragment fragment = new SecondStepFragment();
-        fragment.setListener(mtsl, mListener);
+        mtsl.getSecondStepFragment().setListener(mtsl, mListener);
         fm.beginTransaction().setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left, android.R.anim.slide_in_left, android.R.anim.slide_out_right)
-                .replace(R.id.fragmentView, fragment).addToBackStack("secondStepLogin")
+                .replace(R.id.fragmentView, mtsl.getSecondStepFragment()).addToBackStack("secondStepLogin")
                 .commit();
     }
 
