@@ -55,7 +55,10 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         if (mtsl != null) {
             email.setText(mtsl.getEmail());
             name.setText(mtsl.getName());
-            profile_image.setImageBitmap(mtsl.getBitmap());
+            if (mtsl.getBitmap() != null)
+                profile_image.setImageBitmap(mtsl.getBitmap());
+            else
+                profile_image.setImageResource(R.drawable.ic_add_image);
         }
 
         Button buttonLogin = (Button) view.findViewById(R.id.buttonLogin);
