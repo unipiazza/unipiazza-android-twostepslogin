@@ -133,7 +133,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     }
 
     public void wrongPassword() {
-        progressBarSecond.setVisibility(View.VISIBLE);
-        layoutSecond.setVisibility(View.GONE);
+        progressBarSecond.setVisibility(View.GONE);
+        layoutSecond.setVisibility(View.VISIBLE);
     }
 }

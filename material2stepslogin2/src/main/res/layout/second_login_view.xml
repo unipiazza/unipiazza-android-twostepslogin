@@ -49,6 +49,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edittext_unipiazza_background"
+            android:fontFamily="sans-serif"
             android:hint="Password"
             android:imeOptions="actionGo"
             android:inputType="textPassword"
