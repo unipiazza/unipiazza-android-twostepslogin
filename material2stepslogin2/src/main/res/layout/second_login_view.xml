@@ -18,6 +18,7 @@
         android:id="@+id/layoutSecond"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -25,28 +26,27 @@
             android:id="@+id/profile_image"
             android:layout_width="96dp"
             android:layout_height="96dp"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="14dp" />
 
         <TextView
             android:id="@+id/name"
             style="@style/Base.TextAppearance.AppCompat.Body2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp" />
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/email"
             style="@style/Base.TextAppearance.AppCompat.Caption"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:textSize="14dp"
+            android:layout_marginTop="3dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edittext_unipiazza_background"
             android:fontFamily="sans-serif"
@@ -59,13 +59,11 @@
             android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/rounded_orange_btn"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_orange_light_btn"
             android:text="@string/login"
             android:textColor="#fff"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
     </io.codetail.widget.RevealLinearLayout>
 
     <TextView
@@ -85,7 +83,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="16dp"
         android:background="?android:attr/selectableItemBackground"
-        android:padding="8dp"
+        android:padding="4dp"
         android:text="@string/pass_forget"
         android:textColor="#f58220" />
 </RelativeLayout>

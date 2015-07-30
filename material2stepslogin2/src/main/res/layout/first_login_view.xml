@@ -22,20 +22,18 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
-
+        <!--
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/ic_add_image" />
+            android:src="@drawable/ic_add_image" />-->
 
         <AutoCompleteTextView
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
             android:background="@drawable/edittext_unipiazza_background"
             android:hint="Email"
             android:imeOptions="actionNext"
@@ -46,12 +44,10 @@
             android:id="@+id/buttonNext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/rounded_orange_btn"
             android:text="@string/next"
             android:textColor="#fff"
-            android:textSize="24sp" />
+            android:textSize="22sp" />
     </LinearLayout>
 </LinearLayout>

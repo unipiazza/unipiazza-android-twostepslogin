@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Material2Steps Login</string>
-    <string name="next">NEXT</string>
-    <string name="login">Sign in</string>
-    <string name="not_remember">Non la ricordi?</string>
+    <string name="next">AVANTI</string>
+    <string name="login">ACCEDI</string>
+    <string name="not_remember">Non la ricordi più?</string>
     <string name="pass_forget">RECUPERA PASSWORD</string>
 </resources>
