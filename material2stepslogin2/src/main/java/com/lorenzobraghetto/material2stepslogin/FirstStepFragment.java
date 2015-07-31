@@ -46,6 +46,7 @@ public class FirstStepFragment extends Fragment {
         email = (AutoCompleteTextView) view.findViewById(R.id.email);
         next = (Button) view.findViewById(R.id.buttonNext);
         progressBarFirst = (ProgressBar) view.findViewById(R.id.progressBarFirst);
+        progressBarFirst.setVisibility(View.GONE);
         layoutFirst = (LinearLayout) view.findViewById(R.id.layoutFirst);
 
         email.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -68,8 +69,6 @@ public class FirstStepFragment extends Fragment {
         }
         ArrayList<String> emails = new ArrayList<>(emailSet);
         email.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_dropdown_item_1line, emails));
-        if (emails.size() > 0)
-            email.setText(emails.get(emails.size() - 1));
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
