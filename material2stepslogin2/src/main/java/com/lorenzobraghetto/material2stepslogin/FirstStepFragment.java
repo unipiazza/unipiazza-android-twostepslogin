@@ -1,11 +1,15 @@
 package com.lorenzobraghetto.material2stepslogin;
 
+import android.Manifest;
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.content.ContextCompat;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +33,7 @@ import java.util.regex.Pattern;
 public class FirstStepFragment extends Fragment {
 
     private static final Pattern EMAIL_PATTERN = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}$", Pattern.CASE_INSENSITIVE);
+    private static final int MY_PERMISSIONS_REQUEST_GET_ACCOUNTS = 123;
 
     private TwoStepsLoginListener mListener;
     private AutoCompleteTextView email;
@@ -60,15 +65,7 @@ public class FirstStepFragment extends Fragment {
             }
         });
 
-        Account[] accounts = AccountManager.get(getActivity()).getAccounts();
-        Set<String> emailSet = new HashSet<String>();
-        for (Account account : accounts) {
-            if (EMAIL_PATTERN.matcher(account.name).matches()) {
-                emailSet.add(account.name);
-            }
-        }
-        ArrayList<String> emails = new ArrayList<>(emailSet);
-        email.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_dropdown_item_1line, emails));
+        checkAccountPermissions();
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,6 +77,31 @@ public class FirstStepFragment extends Fragment {
         });
 
         return view;
+    }
+
+    private void checkAccountPermissions() {
+        if (ContextCompat.checkSelfPermission(getActivity(),
+                Manifest.permission.GET_ACCOUNTS)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            ActivityCompat.requestPermissions(getActivity(),
+                    new String[]{Manifest.permission.GET_ACCOUNTS},
+                    MY_PERMISSIONS_REQUEST_GET_ACCOUNTS);
+        } else {
+            setAutoCompleteEmail();
+        }
+    }
+
+    private void setAutoCompleteEmail() {
+        Account[] accounts = AccountManager.get(getActivity()).getAccounts();
+        Set<String> emailSet = new HashSet<String>();
+        for (Account account : accounts) {
+            if (EMAIL_PATTERN.matcher(account.name).matches()) {
+                emailSet.add(account.name);
+            }
+        }
+        ArrayList<String> emails = new ArrayList<>(emailSet);
+        email.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_dropdown_item_1line, emails));
     }
 
     public void setListener(MaterialTwoStepsLogin mtsl, TwoStepsLoginListener listener) {
@@ -98,5 +120,21 @@ public class FirstStepFragment extends Fragment {
     protected void notVerified() {
         progressBarFirst.setVisibility(View.GONE);
         layoutFirst.setVisibility(View.VISIBLE);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSIONS_REQUEST_GET_ACCOUNTS: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                    setAutoCompleteEmail();
+
+                }
+            }
+        }
     }
 }

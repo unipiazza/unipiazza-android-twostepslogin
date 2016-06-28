@@ -51,6 +51,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         progressBarSecond = (ProgressBar) view.findViewById(R.id.progressBarSecond);
         layoutSecond = (RevealLinearLayout) view.findViewById(R.id.layoutSecond);
 
+        progressBarSecond.setVisibility(View.GONE);
 
         if (mtsl != null) {
             email.setText(mtsl.getEmail());

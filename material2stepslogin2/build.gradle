@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 21
+    compileSdkVersion 24
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         minSdkVersion 12
-        targetSdkVersion 21
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
     }
@@ -20,8 +20,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'de.hdodenhof:circleimageview:1.3.0'
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.github.ozodrukh:CircularReveal:1.1.0@aar'
-    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.github.ozodrukh:CircularReveal:1.1.1@aar'
 }
