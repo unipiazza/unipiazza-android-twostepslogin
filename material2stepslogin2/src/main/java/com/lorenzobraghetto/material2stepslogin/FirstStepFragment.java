@@ -6,7 +6,6 @@ import android.accounts.AccountManager;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
@@ -84,8 +83,7 @@ public class FirstStepFragment extends Fragment {
                 Manifest.permission.GET_ACCOUNTS)
                 != PackageManager.PERMISSION_GRANTED) {
 
-            ActivityCompat.requestPermissions(getActivity(),
-                    new String[]{Manifest.permission.GET_ACCOUNTS},
+            requestPermissions(new String[]{Manifest.permission.GET_ACCOUNTS},
                     MY_PERMISSIONS_REQUEST_GET_ACCOUNTS);
         } else {
             setAutoCompleteEmail();
