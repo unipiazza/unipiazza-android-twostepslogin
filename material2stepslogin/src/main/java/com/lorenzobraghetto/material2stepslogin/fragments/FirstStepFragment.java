@@ -49,7 +49,7 @@ public class FirstStepFragment extends Fragment {
     private LinearLayout layoutFirst;
     private ImageView logo;
     private TextView insert_email_login;
-    private TextView registra;
+    private TextView registerText;
     private Button buttonRegistra;
 
     @Nullable
@@ -64,7 +64,7 @@ public class FirstStepFragment extends Fragment {
         layoutFirst = (LinearLayout) view.findViewById(R.id.layoutFirst);
         logo = (ImageView) view.findViewById(R.id.logo);
         insert_email_login = (TextView) view.findViewById(R.id.insert_email_login);
-        registra = (TextView) view.findViewById(R.id.registra);
+        registerText = (TextView) view.findViewById(R.id.registerText);
         buttonRegistra = (Button) view.findViewById(R.id.buttonRegistra);
 
         progressBarFirst.setVisibility(View.GONE);
@@ -73,12 +73,16 @@ public class FirstStepFragment extends Fragment {
             view.setBackgroundColor(mtsl.getFirst_step_background_color());
             logo.setImageResource(mtsl.getLogo());
             insert_email_login.setText(mtsl.getDescription());
-            registra.setText(mtsl.getRegister_description());
+            registerText.setText(mtsl.getRegister_description());
             buttonRegistra.setText(mtsl.getRegister_text());
             buttonRegistra.setBackgroundResource(mtsl.getRegister_background());
             if (mtsl.getEdittext_email_background() != 0)
                 email.setBackgroundResource(mtsl.getEdittext_email_background());
             next.setBackgroundResource(mtsl.getButton_next_background());
+            if (mtsl.getButton_next_text_color() != 0)
+                next.setTextColor(mtsl.getButton_next_text_color());
+            if (mtsl.getButton_register_text_color() != 0)
+                buttonRegistra.setTextColor(mtsl.getButton_register_text_color());
         }
 
         email.setOnEditorActionListener(new TextView.OnEditorActionListener() {

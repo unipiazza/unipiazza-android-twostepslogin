@@ -39,6 +39,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     private Button pass_forget;
     private ProgressBar progressBarSecond;
     private RevealLinearLayout layoutSecond;
+    private Button buttonLogin;
 
     @Nullable
     @Override
@@ -54,6 +55,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         pass_forget = (Button) view.findViewById(R.id.pass_forget);
         progressBarSecond = (ProgressBar) view.findViewById(R.id.progressBarSecond);
         layoutSecond = (RevealLinearLayout) view.findViewById(R.id.layoutSecond);
+        buttonLogin = (Button) view.findViewById(R.id.buttonLogin);
 
         progressBarSecond.setVisibility(View.GONE);
         editTextPassword.setBackgroundResource(mtsl.getEdittext_password_background());
@@ -62,9 +64,12 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
             email.setText(mtsl.getEmail());
             name.setText(mtsl.getName());
             profile_image.setImageBitmap(mtsl.getBitmap());
+            if (mtsl.getButton_login_text_color() != 0) {
+                buttonLogin.setTextColor(mtsl.getButton_login_text_color());
+                pass_forget.setTextColor(mtsl.getButton_login_text_color());
+            }
         }
 
-        Button buttonLogin = (Button) view.findViewById(R.id.buttonLogin);
         buttonLogin.setBackgroundResource(mtsl.getButton_login_background());
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override

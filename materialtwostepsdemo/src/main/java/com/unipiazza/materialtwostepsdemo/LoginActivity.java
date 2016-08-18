@@ -28,16 +28,20 @@ public class LoginActivity extends AppCompatActivity implements TwoStepsLoginLis
         login_view.setRegister_description(R.string.not_registered_login);
         login_view.setRegister_text(R.string.registrati);
 
-        //Register button background
+        //Register Button background
         //login_view.setRegister_background(R.drawable.rounded_white_stroke_button);
+        login_view.setButton_register_text_color(Color.WHITE);
 
-        //EditText backgounds
+        //EditText Backgounds
         //login_view.setEdittext_password_background(R.drawable.edittext_unipiazza_background);
         //login_view.setEdittext_email_background(R.drawable.edittext_unipiazza_background);
 
-        //Button backgrounds
+        //Button Backgrounds
         //login_view.setButton_login_background(R.drawable.rounded_orange_light_btn);
         //login_view.setButton_next_background(R.drawable.rounded_orange_btn);
+        //Button Text Color
+        login_view.setButton_next_text_color(Color.WHITE);
+        login_view.setButton_login_text_color(getResources().getColor(R.color.colorPrimary));
     }
 
     @Override

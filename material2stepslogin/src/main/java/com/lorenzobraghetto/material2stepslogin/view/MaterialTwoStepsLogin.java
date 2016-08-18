@@ -34,12 +34,15 @@ public class MaterialTwoStepsLogin extends LinearLayout {
     private int register_background;
     private int register_description_text;
     private int register_text;
+    private int button_register_text_color;
     private int first_step_background_color;
     private int second_step_background_color;
     private int edittext_password_background;
     private int button_login_background;
     private int edittext_email_background;
     private int button_next_background;
+    private int button_login_text_color;
+    private int button_next_text_color;
 
     public MaterialTwoStepsLogin(Context context) {
         super(context);
@@ -193,5 +196,29 @@ public class MaterialTwoStepsLogin extends LinearLayout {
 
     public void setButton_next_background(int button_next_background) {
         this.button_next_background = button_next_background;
+    }
+
+    public int getButton_login_text_color() {
+        return button_login_text_color;
+    }
+
+    public void setButton_login_text_color(int button_login_text_color) {
+        this.button_login_text_color = button_login_text_color;
+    }
+
+    public int getButton_next_text_color() {
+        return button_next_text_color;
+    }
+
+    public void setButton_next_text_color(int button_next_text_color) {
+        this.button_next_text_color = button_next_text_color;
+    }
+
+    public int getButton_register_text_color() {
+        return button_register_text_color;
+    }
+
+    public void setButton_register_text_color(int button_register_text_color) {
+        this.button_register_text_color = button_register_text_color;
     }
 }
