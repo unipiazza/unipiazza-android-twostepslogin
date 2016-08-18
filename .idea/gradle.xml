@@ -5,12 +5,20 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
         <option name="gradleJvm" value="1.7" />
         <option name="modules">
           <set>
             <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
-            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/materialtwostepsdemo" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin" />
+            <option value="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/materialtwostepsdemo" />
           </set>
         </option>
       </GradleProjectSettings>

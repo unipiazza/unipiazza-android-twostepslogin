@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/Material2StepsLogin.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/Material2StepsLogin.iml" />
-      <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/material2stepslogin2.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin2/material2stepslogin2.iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin/material2stepslogin2.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/material2stepslogin/material2stepslogin2.iml" />
+      <module fileurl="file:///opt/monossido/AndroidstudioProjects/Material2StepsLogin/materialtwostepsdemo/materialtwostepsdemo.iml" filepath="/opt/monossido/AndroidstudioProjects/Material2StepsLogin/materialtwostepsdemo/materialtwostepsdemo.iml" />
     </modules>
   </component>
 </project>
