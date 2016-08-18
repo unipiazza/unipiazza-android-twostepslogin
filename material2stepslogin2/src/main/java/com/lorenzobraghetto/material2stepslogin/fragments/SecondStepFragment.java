@@ -1,4 +1,4 @@
-package com.lorenzobraghetto.material2stepslogin;
+package com.lorenzobraghetto.material2stepslogin.fragments;
 
 import android.animation.Animator;
 import android.annotation.SuppressLint;
@@ -15,6 +15,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.lorenzobraghetto.material2stepslogin.R;
+import com.lorenzobraghetto.material2stepslogin.TwoStepsLoginListener;
+import com.lorenzobraghetto.material2stepslogin.view.MaterialTwoStepsLogin;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import io.codetail.animation.SupportAnimator;
@@ -75,9 +79,10 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         pass_forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mListener.onRecoverPassword();
+                mListener.onRecoverPasswordClicked();
             }
         });
+        view.setBackgroundColor(mtsl.getSecond_step_background_color());
 
         return view;
     }

@@ -8,7 +8,9 @@ public interface TwoStepsLoginListener {
 
     void onLoginClicked(String password);
 
-    void onRecoverPassword();
+    void onRecoverPasswordClicked();
 
     void onBackToMail();
+
+    void onRegisterClicked();
 }

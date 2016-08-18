@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="vertical"
     android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:id="@+id/insert_email_login"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="16sp" />
 
     <ProgressBar
         android:id="@+id/progressBarFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_centerInParent="true"
         android:indeterminate="true"
         android:indeterminateTint="#fff"
         android:indeterminateTintMode="src_atop"
@@ -19,16 +35,9 @@
     <LinearLayout
         android:id="@+id/layoutFirst"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:orientation="vertical">
-        <!--
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile_image"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_marginBottom="16dp"
-            android:src="@drawable/ic_add_image" />-->
 
         <AutoCompleteTextView
             android:id="@+id/email"
@@ -50,4 +59,27 @@
             android:textColor="#fff"
             android:textSize="22sp" />
     </LinearLayout>
-</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/registra"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonRegistra"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/buttonRegistra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+</RelativeLayout>

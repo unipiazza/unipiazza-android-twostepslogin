@@ -1,8 +1,9 @@
-package com.lorenzobraghetto.material2stepslogin;
+package com.lorenzobraghetto.material2stepslogin.fragments;
 
 import android.Manifest;
 import android.accounts.Account;
 import android.accounts.AccountManager;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,12 +15,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.lorenzobraghetto.material2stepslogin.R;
+import com.lorenzobraghetto.material2stepslogin.TwoStepsLoginListener;
+import com.lorenzobraghetto.material2stepslogin.view.MaterialTwoStepsLogin;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -40,6 +47,10 @@ public class FirstStepFragment extends Fragment {
     private Button next;
     private ProgressBar progressBarFirst;
     private LinearLayout layoutFirst;
+    private ImageView logo;
+    private TextView insert_email_login;
+    private TextView registra;
+    private Button buttonRegistra;
 
     @Nullable
     @Override
@@ -50,8 +61,19 @@ public class FirstStepFragment extends Fragment {
         email = (AutoCompleteTextView) view.findViewById(R.id.email);
         next = (Button) view.findViewById(R.id.buttonNext);
         progressBarFirst = (ProgressBar) view.findViewById(R.id.progressBarFirst);
-        progressBarFirst.setVisibility(View.GONE);
         layoutFirst = (LinearLayout) view.findViewById(R.id.layoutFirst);
+        logo = (ImageView) view.findViewById(R.id.logo);
+        insert_email_login = (TextView) view.findViewById(R.id.insert_email_login);
+        registra = (TextView) view.findViewById(R.id.registra);
+        buttonRegistra = (Button) view.findViewById(R.id.buttonRegistra);
+
+        view.setBackgroundColor(mtsl.getFirst_step_background_color());
+        progressBarFirst.setVisibility(View.GONE);
+        logo.setImageResource(mtsl.getLogo());
+        insert_email_login.setText(mtsl.getDescription());
+        registra.setText(mtsl.getRegister_description());
+        buttonRegistra.setText(mtsl.getRegister_text());
+        buttonRegistra.setBackgroundResource(mtsl.getRegister_background());
 
         email.setOnEditorActionListener(new TextView.OnEditorActionListener() {
 
@@ -72,6 +94,9 @@ public class FirstStepFragment extends Fragment {
                 progressBarFirst.setVisibility(View.VISIBLE);
                 layoutFirst.setVisibility(View.GONE);
                 mListener.onNextClicked(email.getText().toString());
+                InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(
+                        Context.INPUT_METHOD_SERVICE);
+                imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
             }
         });
 
@@ -107,7 +132,7 @@ public class FirstStepFragment extends Fragment {
         mListener = listener;
     }
 
-    protected void emailVerified() {
+    public void emailVerified() {
         FragmentManager fm = getActivity().getSupportFragmentManager();
         mtsl.getSecondStepFragment().setListener(mtsl, mListener);
         fm.beginTransaction().setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left, android.R.anim.slide_in_left, android.R.anim.slide_out_right)
@@ -115,7 +140,7 @@ public class FirstStepFragment extends Fragment {
                 .commit();
     }
 
-    protected void notVerified() {
+    public void notVerified() {
         progressBarFirst.setVisibility(View.GONE);
         layoutFirst.setVisibility(View.VISIBLE);
     }
@@ -125,7 +150,6 @@ public class FirstStepFragment extends Fragment {
                                            String permissions[], int[] grantResults) {
         switch (requestCode) {
             case MY_PERMISSIONS_REQUEST_GET_ACCOUNTS: {
-                // If request is cancelled, the result arrays are empty.
                 if (grantResults.length > 0
                         && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
