@@ -58,7 +58,6 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         buttonLogin = (Button) view.findViewById(R.id.buttonLogin);
 
         progressBarSecond.setVisibility(View.GONE);
-        editTextPassword.setBackgroundResource(mtsl.getEdittext_password_background());
 
         if (mtsl != null) {
             email.setText(mtsl.getEmail());
@@ -68,9 +67,11 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
                 buttonLogin.setTextColor(mtsl.getButton_login_text_color());
                 pass_forget.setTextColor(mtsl.getButton_login_text_color());
             }
+            if (mtsl.getEdittext_password_background() != 0)
+                editTextPassword.setBackgroundResource(mtsl.getEdittext_password_background());
+            buttonLogin.setBackgroundResource(mtsl.getButton_login_background());
         }
 
-        buttonLogin.setBackgroundResource(mtsl.getButton_login_background());
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
