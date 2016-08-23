@@ -125,3 +125,5 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+see [LICENSE](https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/LICENSE)
+
