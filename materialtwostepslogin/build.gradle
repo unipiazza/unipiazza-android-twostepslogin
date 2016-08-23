@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        minSdkVersion 12
+        targetSdkVersion 24
+        versionCode 1
+        versionName "0.1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.android.support:appcompat-v7:24.2.0'
+    compile 'com.github.ozodrukh:CircularReveal:1.1.1@aar'
+}
+
+ext {
+    bintrayRepo = 'materialtwostepslogin'
+    bintrayName = 'MaterialTwoStepsLogin'
+
+    publishedGroupId = 'com.unipiazza.materialtwostepslogin'
+    libraryName = 'materialtwostepslogin'
+    artifact = 'materialtwostepslogin'
+
+    libraryDescription = 'An Android library that helps you to make a cool two steps login in Material Design way. Such as Google web login.'
+
+    siteUrl = 'https://github.com/unipiazza/unipiazza-android-twostepslogin'
+    gitUrl = 'https://github.com/unipiazza/unipiazza-android-twostepslogin.git'
+
+    libraryVersion = '0.1.1'
+
+    developerId = 'unipiazza'
+    developerName = 'Lorenzo Braghetto'
+    developerEmail = 'lorenzo@unipiazza.it'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

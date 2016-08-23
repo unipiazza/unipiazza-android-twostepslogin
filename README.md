@@ -6,7 +6,18 @@ An Android library that helps you to make a cool two steps login in Material Des
 Download
 --------
 
-Download [the latest JAR][http://TODO] or grab via Gradle:
+Download via Maven:
+
+``
+<dependency>
+  <groupId>com.unipiazza.materialtwostepslogin</groupId>
+  <artifactId>materialtwostepslogin</artifactId>
+  <version>0.1.1</version>
+  <type>pom</type>
+</dependency>
+``
+
+or Gradle
 
 ```groovy
 compile 'com.unipiazza.materialtwostepslogin:materialtwostepslogin:0.1.1'
