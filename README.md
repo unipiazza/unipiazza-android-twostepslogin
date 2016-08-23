@@ -15,7 +15,7 @@ compile 'com.unipiazza.materialtwostepslogin:materialtwostepslogin:0.1.1'
 Demo
 -------------
 See [Materialtwostepsdemo](https://github.com/unipiazza/unipiazza-android-twostepslogin/tree/master/materialtwostepsdemo) for code example.
-See [Unipiazza](https://play.google.com/store/apps/details?id=com.unipiazza.utentiapp) in Play Store for a demo.
+See [Unipiazza](https://play.google.com/store/apps/details?id=com.unipiazza.utentiapp) in Play Store for a full working demo.
 
 <img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo1.png" width="300">
 <img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo2.png" width="300">
