@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.unipiazza.materialtwostepsdemo.LoginActivity">
 
-    <com.lorenzobraghetto.material2stepslogin.view.MaterialTwoStepsLogin
+    <com.unipiazza.material2stepslogin.view.MaterialTwoStepsLogin
         android:id="@+id/login_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
