@@ -18,7 +18,6 @@ See [Materialtwostepsdemo](https://github.com/unipiazza/unipiazza-android-twoste
 See [Unipiazza](https://play.google.com/store/apps/details?id=com.unipiazza.utentiapp) in Play Store for a demo.
 
 <img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo1.png" width="300">
-
 <img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo2.png" width="300">
 
 Usage
@@ -34,7 +33,7 @@ Create a new **Activity with MaterialTwoStepsLogin view in xml file**:
 
 **Customize** it from Activity
 
-``java
+```java
 	MaterialTwoStepsLogin login_view = (MaterialTwoStepsLogin) findViewById(R.id.login_view);
 
 	login_view.setListener(this);
@@ -108,6 +107,7 @@ Suggestion, help and pull request al welcome!
 Libraries used
 -------
 [circleimageview](https://github.com/hdodenhof/CircleImageView)
+
 [CircularReveal](https://github.com/ozodrukh/CircularReveal)
 
 License
