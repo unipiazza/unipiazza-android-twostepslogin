@@ -8,14 +8,14 @@ Download
 
 Download via Maven:
 
-``
+```xml
 <dependency>
   <groupId>com.unipiazza.materialtwostepslogin</groupId>
   <artifactId>materialtwostepslogin</artifactId>
   <version>0.1.1</version>
   <type>pom</type>
 </dependency>
-``
+```
 
 or Gradle
 
