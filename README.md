@@ -31,6 +31,9 @@ See [Unipiazza](https://play.google.com/store/apps/details?id=com.unipiazza.uten
 <img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo1.png" width="300">
 <img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo2.png" width="300">
 
+
+<img src="https://github.com/unipiazza/unipiazza-android-twostepslogin/blob/master/art/demo.gif">
+
 Usage
 -------------
 Create a new **Activity with MaterialTwoStepsLogin view in xml file**:
