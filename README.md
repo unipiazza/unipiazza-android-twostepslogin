@@ -1,6 +1,10 @@
 Material Two Steps Login
 ======
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-unipiazza--android--twostepslogin-green.svg?style=true)](https://android-arsenal.com/details/1/4244)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.unipiazza.materialtwostepslogin/materialtwostepslogin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.unipiazza.materialtwostepslogin/materialtwostepslogin)
+
+
 An Android library that helps you to make a cool two steps login in Material Design way. Such as Google web login.
 
 Download
