@@ -125,6 +125,13 @@ public class FirstStepFragment extends Fragment {
             }
         });
 
+        buttonRegistra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mListener.onRegisterClicked();
+            }
+        });
+
         return view;
     }
 
