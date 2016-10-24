@@ -16,7 +16,7 @@ Download via Maven:
 <dependency>
   <groupId>com.unipiazza.materialtwostepslogin</groupId>
   <artifactId>materialtwostepslogin</artifactId>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
   <type>pom</type>
 </dependency>
 ```
@@ -24,7 +24,7 @@ Download via Maven:
 or Gradle
 
 ```groovy
-compile 'com.unipiazza.materialtwostepslogin:materialtwostepslogin:0.1.2'
+compile 'com.unipiazza.materialtwostepslogin:materialtwostepslogin:0.1.3'
 ```
 
 Demo
@@ -54,30 +54,48 @@ Create a new **Activity with MaterialTwoStepsLogin view in xml file**:
 ```java
 	MaterialTwoStepsLogin login_view = (MaterialTwoStepsLogin) findViewById(R.id.login_view);
 
-	login_view.setListener(this);
-	login_view.setActivity(this);
-	login_view.setFirst_step_background_color(getResources().getColor(R.color.colorPrimary));
-	login_view.setSecond_step_background_color(Color.WHITE);
-	login_view.setLogo(R.mipmap.ic_launcher);
-	login_view.setDescription(R.string.insert_email_login);
-	login_view.setRegister_description(R.string.not_registered_login);
-	login_view.setRegister_text(R.string.registrati);
+   //REQUIRED
+    login_view.setListener(this);
+    login_view.setActivity(this);
+    login_view.setFirst_step_background_color(getResources().getColor(R.color.colorPrimary));
+    login_view.setSecond_step_background_color(Color.WHITE);
+    login_view.setLogo(R.mipmap.ic_launcher);
+    login_view.setDescription(R.string.insert_email_login);
 
-	//Register Button background
-	//login_view.setRegister_background(R.drawable.rounded_white_stroke_button);
-	login_view.setButton_register_text_color(Color.WHITE);
+    //OPTIONAL
+    //TEXTS
+    login_view.setRegister_description(R.string.not_registered_login);
+    login_view.setRegister_text(R.string.registrati);
+    //login_view.setPassforget_description_text();
+    //login_view.setButton_passforget_text(Color.WHITE);
+    //login_view.setButton_login_text();
 
-	//EditText Backgounds
-	//login_view.setEdittext_password_background();
-	//login_view.setEdittext_email_background();
+    //REGISTER BUTTON background
+    //login_view.setRegister_background(R.drawable.rounded_white_stroke_button);
+    login_view.setButton_register_text_color(Color.WHITE);
 
-	//Button Backgrounds
-	//login_view.setButton_login_background();
-	//login_view.setButton_next_background();
+    //EDITTEXT BACKGROUNDS AND COLOR
+    //login_view.setEdittext_password_background();
+    //login_view.setEdittext_email_background();
+    //login_view.setEmail_text_color(Color.BLACK);
+    //login_view.setEdittext_password_text_color(Color.BLACK);
 
-	//Button Text Color
-	login_view.setButton_next_text_color(Color.WHITE);
-	login_view.setButton_login_text_color(getResources().getColor(R.color.colorPrimary));
+    //BUTTON BACKGROUNDS
+    //login_view.setButton_login_background();
+    //login_view.setButton_next_background();
+
+    //BUTTON TEXT COLOR
+    login_view.setButton_next_text_color(Color.WHITE);
+    login_view.setButton_login_text_color(getResources().getColor(R.color.colorPrimary));
+    //login_view.setButton_passforget_text_color(Color.WHITE);
+    //login_view.setPassforget_description_text_color(Color.WHITE);
+
+    //TEXTVIEW TEXT COLOR
+    //login_view.setDescription_text_color(Color.BLACK);
+    //login_view.setRegister_description_text_color(Color.WHITE);
+    //login_view.setName_text_color(Color.BLACK);
+    //login_view.setEmail_secontstep_text_color(Color.BLACK);
+    login_view.setPassforget_description_text_color(Color.BLACK);
 ```
 
 Implement **Listener** and listen for actions
