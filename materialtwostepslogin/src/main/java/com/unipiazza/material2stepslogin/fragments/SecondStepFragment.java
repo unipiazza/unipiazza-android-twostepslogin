@@ -55,6 +55,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     private ProgressBar progressBarSecond;
     private RevealLinearLayout layoutSecond;
     private Button buttonLogin;
+    private TextView pass_forget_description;
 
     @Nullable
     @Override
@@ -68,6 +69,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         editTextPassword = (EditText) view.findViewById(R.id.editTextPassword);
         profile_image = (CircleImageView) view.findViewById(R.id.profile_image);
         pass_forget = (Button) view.findViewById(R.id.pass_forget);
+        pass_forget_description = (TextView) view.findViewById(R.id.pass_forget_description);
         progressBarSecond = (ProgressBar) view.findViewById(R.id.progressBarSecond);
         layoutSecond = (RevealLinearLayout) view.findViewById(R.id.layoutSecond);
         buttonLogin = (Button) view.findViewById(R.id.buttonLogin);
@@ -78,13 +80,33 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
             email.setText(mtsl.getEmail());
             name.setText(mtsl.getName());
             profile_image.setImageBitmap(mtsl.getBitmap());
-            if (mtsl.getButton_login_text_color() != 0) {
+
+            if (mtsl.getButton_login_text_color() != 0)
                 buttonLogin.setTextColor(mtsl.getButton_login_text_color());
-                pass_forget.setTextColor(mtsl.getButton_login_text_color());
-            }
+            if (mtsl.getButton_login_background() != 0)
+                buttonLogin.setBackgroundResource(mtsl.getButton_login_background());
+            if (mtsl.getButton_login_text() != 0)
+                buttonLogin.setText(mtsl.getButton_login_text());
+
             if (mtsl.getEdittext_password_background() != 0)
                 editTextPassword.setBackgroundResource(mtsl.getEdittext_password_background());
-            buttonLogin.setBackgroundResource(mtsl.getButton_login_background());
+            if (mtsl.getEdittext_password_text_color() != 0)
+                editTextPassword.setTextColor(mtsl.getEdittext_password_text_color());
+
+            if (mtsl.getName_text_color() != 0)
+                name.setTextColor(mtsl.getName_text_color());
+
+            if (mtsl.getButton_passforget_text_color() != 0)
+                pass_forget.setTextColor(mtsl.getButton_passforget_text_color());
+            if (mtsl.getButton_passforget_text() != 0)
+                pass_forget.setText(mtsl.getButton_passforget_text());
+            if (mtsl.getPassforget_description_text_color() != 0)
+                pass_forget_description.setTextColor(mtsl.getPassforget_description_text_color());
+            if (mtsl.getPassforget_description_text() != 0)
+                pass_forget_description.setTextColor(mtsl.getPassforget_description_text());
+
+            if (mtsl.getEmail_text_color() != 0)
+                email.setTextColor(mtsl.getEmail_text_color());
         }
 
         buttonLogin.setOnClickListener(new View.OnClickListener() {

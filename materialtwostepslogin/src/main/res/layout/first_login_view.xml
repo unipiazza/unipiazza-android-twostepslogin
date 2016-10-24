@@ -12,7 +12,7 @@
         android:layout_marginTop="38dp" />
 
     <TextView
-        android:id="@+id/insert_email_login"
+        android:id="@+id/descriptionText"
         style="@style/Base.TextAppearance.AppCompat.Body1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

@@ -63,7 +63,7 @@ public class FirstStepFragment extends Fragment {
     private ProgressBar progressBarFirst;
     private LinearLayout layoutFirst;
     private ImageView logo;
-    private TextView insert_email_login;
+    private TextView descriptionText;
     private TextView registerText;
     private Button buttonRegistra;
 
@@ -78,7 +78,7 @@ public class FirstStepFragment extends Fragment {
         progressBarFirst = (ProgressBar) view.findViewById(R.id.progressBarFirst);
         layoutFirst = (LinearLayout) view.findViewById(R.id.layoutFirst);
         logo = (ImageView) view.findViewById(R.id.logo);
-        insert_email_login = (TextView) view.findViewById(R.id.insert_email_login);
+        descriptionText = (TextView) view.findViewById(R.id.descriptionText);
         registerText = (TextView) view.findViewById(R.id.registerText);
         buttonRegistra = (Button) view.findViewById(R.id.buttonRegistra);
 
@@ -87,17 +87,33 @@ public class FirstStepFragment extends Fragment {
         if (mtsl != null) {
             view.setBackgroundColor(mtsl.getFirst_step_background_color());
             logo.setImageResource(mtsl.getLogo());
-            insert_email_login.setText(mtsl.getDescription());
-            registerText.setText(mtsl.getRegister_description());
-            buttonRegistra.setText(mtsl.getRegister_text());
-            buttonRegistra.setBackgroundResource(mtsl.getRegister_background());
-            if (mtsl.getEdittext_email_background() != 0)
-                email.setBackgroundResource(mtsl.getEdittext_email_background());
-            next.setBackgroundResource(mtsl.getButton_next_background());
-            if (mtsl.getButton_next_text_color() != 0)
-                next.setTextColor(mtsl.getButton_next_text_color());
+            descriptionText.setText(mtsl.getDescription());
+
+            if (mtsl.getRegister_description() != 0)
+                registerText.setText(mtsl.getRegister_description());
+            if (mtsl.getRegister_description_text_color() != 0)
+                registerText.setTextColor(mtsl.getRegister_description_text_color());
+
+            if (mtsl.getRegister_text() != 0)
+                buttonRegistra.setText(mtsl.getRegister_text());
+            if (mtsl.getRegister_background() != 0)
+                buttonRegistra.setBackgroundResource(mtsl.getRegister_background());
             if (mtsl.getButton_register_text_color() != 0)
                 buttonRegistra.setTextColor(mtsl.getButton_register_text_color());
+
+            if (mtsl.getEditText_email_text_color() != 0)
+                email.setTextColor(mtsl.getEditText_email_text_color());
+            if (mtsl.getEdittext_email_background() != 0)
+                email.setBackgroundResource(mtsl.getEdittext_email_background());
+
+            if (mtsl.getButton_next_background() != 0)
+                next.setBackgroundResource(mtsl.getButton_next_background());
+            if (mtsl.getButton_next_text_color() != 0)
+                next.setTextColor(mtsl.getButton_next_text_color());
+
+            if (mtsl.getDescription_text_color() != 0)
+                descriptionText.setTextColor(mtsl.getDescription_text_color());
+
         }
 
         email.setOnEditorActionListener(new TextView.OnEditorActionListener() {

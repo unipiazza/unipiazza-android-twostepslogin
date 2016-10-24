@@ -58,6 +58,17 @@ public class MaterialTwoStepsLogin extends LinearLayout {
     private int button_next_background;
     private int button_login_text_color;
     private int button_next_text_color;
+    private int description_text_color;
+    private int edittext_email_text_color;
+    private int name_text_color;
+    private int edittext_passw_text_color;
+    private int button_pass_forget_text_color;
+    private int pass_forget_description_text_color;
+    private int pass_forget_description_text;
+    private int register_description_text_color;
+    private int button_pass_forget_text;
+    private int email_text_color;
+    private int button_login_text;
 
     public MaterialTwoStepsLogin(Context context) {
         super(context);
@@ -131,6 +142,22 @@ public class MaterialTwoStepsLogin extends LinearLayout {
 
     public void setLogo(int logo) {
         this.logo_image = logo;
+    }
+
+    public int getDescription_text_color() {
+        return description_text_color;
+    }
+
+    public void setDescription_text_color(int description_text_color) {
+        this.description_text_color = description_text_color;
+    }
+
+    public int getEditText_email_text_color() {
+        return edittext_email_text_color;
+    }
+
+    public void setEdittext_email_text_color(int edittext_email_text_color) {
+        this.edittext_email_text_color = edittext_email_text_color;
     }
 
     public int getDescription() {
@@ -213,6 +240,30 @@ public class MaterialTwoStepsLogin extends LinearLayout {
         this.button_next_background = button_next_background;
     }
 
+    public int getName_text_color() {
+        return name_text_color;
+    }
+
+    public void setName_text_color(int name_text_color) {
+        this.name_text_color = name_text_color;
+    }
+
+    public int getEmail_text_color() {
+        return email_text_color;
+    }
+
+    public void setEmail_text_color(int email_text_color) {
+        this.email_text_color = email_text_color;
+    }
+
+    public int getEdittext_password_text_color() {
+        return edittext_passw_text_color;
+    }
+
+    public void setEdittext_password_text_color(int edittext_passw_text_color) {
+        this.edittext_passw_text_color = edittext_passw_text_color;
+    }
+
     public int getButton_login_text_color() {
         return button_login_text_color;
     }
@@ -235,5 +286,53 @@ public class MaterialTwoStepsLogin extends LinearLayout {
 
     public void setButton_register_text_color(int button_register_text_color) {
         this.button_register_text_color = button_register_text_color;
+    }
+
+    public int getButton_passforget_text_color() {
+        return button_pass_forget_text_color;
+    }
+
+    public void setButton_passforget_text_color(int button_pass_forget_text_color) {
+        this.button_pass_forget_text_color = button_pass_forget_text_color;
+    }
+
+    public int getButton_passforget_text() {
+        return button_pass_forget_text;
+    }
+
+    public void setButton_passforget_text(int button_pass_forget_text) {
+        this.button_pass_forget_text = button_pass_forget_text;
+    }
+
+    public int getPassforget_description_text() {
+        return pass_forget_description_text;
+    }
+
+    public void setPassforget_description_text(int pass_forget_description_text) {
+        this.pass_forget_description_text = pass_forget_description_text;
+    }
+
+    public int getPassforget_description_text_color() {
+        return pass_forget_description_text_color;
+    }
+
+    public void setPassforget_description_text_color(int pass_forget_description_text_color) {
+        this.pass_forget_description_text_color = pass_forget_description_text_color;
+    }
+
+    public int getRegister_description_text_color() {
+        return register_description_text_color;
+    }
+
+    public void setRegister_description_text_color(int register_description_text_color) {
+        this.register_description_text_color = register_description_text_color;
+    }
+
+    public int getButton_login_text() {
+        return button_login_text;
+    }
+
+    public void setButton_login_text(int button_login_text) {
+        this.button_login_text = button_login_text;
     }
 }
