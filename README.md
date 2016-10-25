@@ -16,7 +16,7 @@ Download via Maven:
 <dependency>
   <groupId>com.unipiazza.materialtwostepslogin</groupId>
   <artifactId>materialtwostepslogin</artifactId>
-  <version>0.1.3</version>
+  <version>0.1.4</version>
   <type>pom</type>
 </dependency>
 ```
@@ -24,7 +24,7 @@ Download via Maven:
 or Gradle
 
 ```groovy
-compile 'com.unipiazza.materialtwostepslogin:materialtwostepslogin:0.1.3'
+compile 'com.unipiazza.materialtwostepslogin:materialtwostepslogin:0.1.4'
 ```
 
 Demo
