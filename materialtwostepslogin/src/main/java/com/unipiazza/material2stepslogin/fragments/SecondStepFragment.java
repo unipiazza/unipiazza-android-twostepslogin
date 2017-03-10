@@ -16,7 +16,6 @@
 package com.unipiazza.material2stepslogin.fragments;
 
 import android.animation.Animator;
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -107,6 +106,8 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
 
             if (mtsl.getEmail_text_color() != 0)
                 email.setTextColor(mtsl.getEmail_text_color());
+
+            view.setBackgroundColor(mtsl.getSecond_step_background_color());
         }
 
         buttonLogin.setOnClickListener(new View.OnClickListener() {
@@ -124,7 +125,6 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
                 mListener.onRecoverPasswordClicked();
             }
         });
-        view.setBackgroundColor(mtsl.getSecond_step_background_color());
 
         return view;
     }
@@ -145,7 +145,6 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         getView().setOnKeyListener(this);
     }
 
-    @SuppressLint("NewApi")
     private void createReveal(final View myView) {
 
         // get the center for the clipping circle
