@@ -67,6 +67,8 @@ public class MaterialTwoStepsLogin extends LinearLayout {
     private int pass_forget_description_text;
     private int register_description_text_color;
     private int button_pass_forget_text;
+    private int pass_error_description_text;
+    private int pass_error_text_color;
     private int email_text_color;
     private int button_login_text;
 
@@ -334,5 +336,21 @@ public class MaterialTwoStepsLogin extends LinearLayout {
 
     public void setButton_login_text(int button_login_text) {
         this.button_login_text = button_login_text;
+    }
+
+    public int getPass_error_description_text() {
+        return pass_error_description_text;
+    }
+
+    public void setPass_error_description_text(int pass_error_description_text) {
+        this.pass_error_description_text = pass_error_description_text;
+    }
+
+    public int getPass_error_text_color() {
+        return pass_error_text_color;
+    }
+
+    public void setPass_error_text_color(int pass_error_text_color) {
+        this.pass_error_text_color = pass_error_text_color;
     }
 }

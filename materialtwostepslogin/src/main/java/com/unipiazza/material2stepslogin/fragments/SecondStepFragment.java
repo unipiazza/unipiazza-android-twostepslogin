@@ -55,6 +55,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     private RevealLinearLayout layoutSecond;
     private Button buttonLogin;
     private TextView pass_forget_description;
+    private TextView pass_error_description;
 
     @Nullable
     @Override
@@ -72,8 +73,10 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         progressBarSecond = (ProgressBar) view.findViewById(R.id.progressBarSecond);
         layoutSecond = (RevealLinearLayout) view.findViewById(R.id.layoutSecond);
         buttonLogin = (Button) view.findViewById(R.id.buttonLogin);
+        pass_error_description = (TextView) view.findViewById(R.id.pass_error_description);
 
         progressBarSecond.setVisibility(View.GONE);
+        pass_error_description.setVisibility(View.GONE);
 
         if (mtsl != null) {
             email.setText(mtsl.getEmail());
@@ -107,6 +110,12 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
             if (mtsl.getEmail_text_color() != 0)
                 email.setTextColor(mtsl.getEmail_text_color());
 
+            if(mtsl.getPass_error_description_text() != 0)
+                pass_error_description.setText(mtsl.getPass_error_description_text());
+
+            if(mtsl.getPass_error_text_color() != 0)
+                pass_error_description.setTextColor(mtsl.getPass_error_text_color());
+
             view.setBackgroundColor(mtsl.getSecond_step_background_color());
         }
 
@@ -114,6 +123,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
             @Override
             public void onClick(View v) {
                 progressBarSecond.setVisibility(View.VISIBLE);
+                pass_error_description.setVisibility(View.GONE);
                 layoutSecond.setVisibility(View.GONE);
                 mListener.onLoginClicked(editTextPassword.getText().toString());
             }
@@ -122,6 +132,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
         pass_forget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                pass_error_description.setVisibility(View.GONE);
                 mListener.onRecoverPasswordClicked();
             }
         });
@@ -176,6 +187,7 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     public boolean onKey(View v, int keyCode, KeyEvent event) {
         switch (keyCode) {
             case KeyEvent.KEYCODE_BACK:
+                pass_error_description.setVisibility(View.GONE);
                 mListener.onBackToMail();
                 return false;
         }
@@ -185,5 +197,6 @@ public class SecondStepFragment extends Fragment implements View.OnKeyListener {
     public void wrongPassword() {
         progressBarSecond.setVisibility(View.GONE);
         layoutSecond.setVisibility(View.VISIBLE);
+        pass_error_description.setVisibility(View.VISIBLE);
     }
 }

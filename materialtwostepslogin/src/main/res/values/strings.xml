@@ -19,4 +19,5 @@
     <string name="not_remember">Forgot password?</string>
     <string name="pass_forget">RECOVER YOUR PASSWORD</string>
     <string name="login">SIGN IN</string>
+    <string name="pass_error_description_text">Wrong password. Try again or click Forgot password to reset it</string>
 </resources>
